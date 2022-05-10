@@ -13,7 +13,7 @@ export default function Food() {
   const history = useHistory()
 
   function handleChange() {
-    console.log('hey i was clicked all');
+    // console.log('hey i was clicked all');
     history.push('/')
     // useEffect(() => {
     //   async function getFoodList() {
@@ -38,10 +38,10 @@ export default function Food() {
 
 
  function handleSingle() {
-    console.log('hey i was clicked single');
+    // console.log('hey i was clicked single');
     history.push('/?food=single')
-    console.log('location :>> ', location);
-    console.log('value :>> ', value);
+    // console.log('location :>> ', location);
+    // console.log('value :>> ', value);
     // useEffect(() => {
     //   async function getFoodList() {
     //     const options = {
@@ -89,7 +89,7 @@ export default function Food() {
         setData(json.feed)
       }
       // setDataSort(json.feed)
-      console.log('json :>> ', json.feed);
+      // console.log('json :>> ', json.feed);
       // console.log('data :>> ', data);
     }
     // if (value === 'single') {

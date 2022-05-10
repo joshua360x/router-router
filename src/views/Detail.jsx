@@ -55,7 +55,7 @@ export default function Detail() {
     }
     // getFoodList()
     console.log('data', id)
-    // getFoodList()
+    getFoodList()
     setIsLoading(false)
   }, [])
 
